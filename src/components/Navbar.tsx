@@ -1,0 +1,24 @@
+import { Codesandbox} from "lucide-react";
+
+
+function Navbar(){
+    return(
+        <div>
+            <nav className="flex justify-around  items-center align-middle py-10" >
+                <a href="#" className="font-bold text-3xl flex">
+                <Codesandbox className="mr-2 w-9 h-9" />  OKD<span className="text-accent">DEV</span> 
+                </a>
+                <ul className="hidden sm:flex space-x-6">
+                    <li><a href="#" className="btn  btn-sm btn-soft">Accueil</a></li>
+                    <li><a href="#" className="btn  btn-sm btn-soft">A propos</a></li>
+                    <li><a href="#" className="btn btn-sm btn-soft">Mes expériences</a></li>
+                    <li><a href="#" className="btn  btn-sm btn-soft">Mes projets</a></li>
+                    
+                  
+                </ul>
+            </nav>
+
+        </div>
+    );
+}
+export default  Navbar;
