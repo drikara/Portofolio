@@ -89,16 +89,16 @@ const skills=[
 function Experiences(){
     return(
         
-        <div >
+        <div className="mx-auto">
             <Title  title="EXPÉRIENCES"/>
             
 
-                <div className="md:px-25 md:py-10 flex justify-center md:flex-row flex-col-reverse">
-                        <div className="flex flex-wrap  gap-2  w-1/2">
+                <div className="md:px-45 md:py-10 flex justify-center md:flex-row flex-col-reverse  ">
+                        <div className="flex flex-wrap gap-2 w-xs mx-auto">
                             {skills.map((skill)=>(
                                 <div key={skill.id} className="flex justify-center items-center flex-col ">
                                 
-                                    <div className="size-24 rounded-full p-2 border-2 border-accent">
+                                    <div className="size-24 rounded-full p-2 border-2 border-accent mx-auto">
                                         <img src={skill.image} alt={skill.name} className="rounded-full object-cover w-full h-full" />
 
                                     </div>

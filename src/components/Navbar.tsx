@@ -4,7 +4,7 @@ import { Codesandbox} from "lucide-react";
 function Navbar(){
     return(
         <div>
-            <nav className="flex justify-around  items-center align-middle py-10" >
+            <nav className="flex justify-around  items-center align-middle py-10 mx-auto" >
                 <a href="#" className="font-bold text-3xl flex">
                 <Codesandbox className="mr-2 w-9 h-9" />  OKD<span className="text-accent">DEV</span> 
                 </a>

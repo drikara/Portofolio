@@ -4,7 +4,7 @@ import img1 from "../assets/images/photo4.jpeg"
 
 function Home(){
     return(
-        <div className="flex justify-around items-center flex-col-reverse md:flex-row align-middle py-10">
+        <div className="flex justify-around items-center flex-col-reverse md:flex-row align-middle py-10 mx-auto">
             <div className="md:text-left text-center">
                 <h1 className="md:text-3xl">Bonjour , {/* */} <br />
                 Je suis <span className="text-accent">OUATTARA KARAMOKO DRISSA</span>
@@ -12,8 +12,8 @@ function Home(){
                 <p className="text-xl">Je suis un développeur fullstack</p>
                 <p className="text-xl">Avec 1 mois  d'expérience utilisant react js</p>
                 <p className="text-xl mb-5">Contactez-moi si vous avez besoin de mes services</p>
-                <a href="#" className="flex p-2 w-50 bg-accent justify-center rounded hover:bg-amber-600">
-                 <Mail className="mr-2"/> ÉCRIVEZ-MOI
+                <a href="#" className="flex p-2 w-96  bg-accent justify-center rounded hover:bg-amber-600 mx-auto">
+                 <Mail className="md:mr-2"/> ÉCRIVEZ-MOI
                 </a>
 
             </div>

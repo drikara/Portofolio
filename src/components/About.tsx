@@ -23,7 +23,7 @@ const abouts = [
 ]
 function About(){
     return(
-        <div className=" h-full w-full align-middle">
+        <div className=" h-full w-full align-middle mx-auto">
             <Title title="À PROPOS"/>
             <div className=" md:py-10 flex justify-center md:flex-row flex-col-reverse">
                 <div className="">
