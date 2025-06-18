@@ -12,7 +12,7 @@ function Home(){
                 <p className="text-xl">Je suis un développeur fullstack</p>
                 <p className="text-xl">Avec 1 mois  d'expérience utilisant react js</p>
                 <p className="text-xl mb-5">Contactez-moi si vous avez besoin de mes services</p>
-                <a href="#" className="flex p-2 w-96  bg-accent justify-center rounded hover:bg-amber-600 mx-auto">
+                <a href="mailto:ouattara17drissa@gmail.com"  className="flex p-2 w-96  bg-accent justify-center rounded hover:bg-amber-600 mx-auto">
                  <Mail className="md:mr-2"/> ÉCRIVEZ-MOI
                 </a>
 
