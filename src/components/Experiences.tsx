@@ -90,7 +90,7 @@ function Experiences(){
     return(
         
         <div className="mx-auto">
-            <Title  title="EXPÉRIENCES"/>
+            <Title  title="MES EXPÉRIENCES"/>
             
 
                 <div className="md:px-45 md:py-10 flex justify-center md:flex-row flex-col-reverse  ">
