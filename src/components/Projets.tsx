@@ -10,28 +10,28 @@ const projets = [
         id: 1,
         imgpro1: img1,
         nomProjet: "Plateforme E-commerce",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+        description: "Je vous présente mes différentes compétences et projets sur le développement web",
         langages: ["React JS", "TypeScript", "MySQL"], 
         demo: "#",
-        github: '#'
+        github: 'https://github.com/drikara/Portofolio'
     },
     {
         id: 2,
         imgpro1: imgPortfolio,
         nomProjet: "Portfolio",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+        description: "Je vous présente mes différentes compétences et projets sur le développement web",
         langages: ["React JS", "TypeScript", "Tailwind CSS"],
         demo: "#",
-        github: '#'
+        github: 'https://github.com/drikara/Portofolio'
     },
     {
         id: 3,
         imgpro1: imgGT,
         nomProjet: "Gestion de Tâche",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+        description: "Je vous présente mes différentes compétences et projets sur le développement web",
         langages: ["React JS", "Firebase", "CSS"],
         demo: "#",
-        github: '#'
+        github: 'https://github.com/drikara/Portofolio'
     },
 ];
 const Projets = () => {
