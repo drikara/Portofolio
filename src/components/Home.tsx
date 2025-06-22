@@ -4,7 +4,7 @@ import img1 from "../assets/images/photo4.jpeg"
 
 function Home(){
     return(
-        <div className="flex justify-around items-center flex-col-reverse md:flex-row align-middle py-10 mx-auto">
+        <div className="flex justify-around items-center flex-col-reverse md:flex-row align-middle py-10 mx-auto" id="Home">
             <div className="md:text-left text-center">
                 <h1 className="md:text-2xl my-2 ">Bonjour , {/* */}  <br /> 
 
