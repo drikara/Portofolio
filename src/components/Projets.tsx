@@ -36,7 +36,7 @@ const projets = [
 ];
 const Projets = () => {
     return (
-        <div className='md:px-25 md:mb-5'>
+        <div className='md:px-25 md:mb-5' id="Projets">
             <Title title='MES PROJETS'/>
             <div className=' md:flex gap-7 py-5 '>
                {projets.map((projet)=>(
