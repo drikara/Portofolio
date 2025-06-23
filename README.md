@@ -1,1 +1,1 @@
-c'est un site qui présente mes compétences et expériences dans le domaine du développement d'application web et mobile. je viens de travailler sur le coté responsive de mon portofolio. j'ai travaillé sur les liens du navbar 
+c'est un site qui présente mes compétences et expériences dans le domaine du développement d'application web et mobile. je viens de travailler sur le coté responsive de mon portofolio. j'ai travaillé sur les liens du navbar. le commit ne passait pas donc je viens de régler le problème 
